@@ -27,7 +27,7 @@ export default function Carousel({ slides, interval = 5000, showArrows = true, s
             alt={slide.alt ?? ""}
             className="absolute inset-0 w-full h-full object-cover"
           />
-          {slide.overlay}
+          {typeof slide.overlay === "function" ? slide.overlay(i === current) : slide.overlay}
         </div>
       ))}
 
@@ -71,5 +71,3 @@ export default function Carousel({ slides, interval = 5000, showArrows = true, s
     </div>
   );
 }
-
-   

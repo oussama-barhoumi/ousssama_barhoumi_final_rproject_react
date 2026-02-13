@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">Copyright © 2026 All rights reserved | This template is made with ♥ by Colorlib</p>
+          <p className="text-gray-500 text-sm">Copyright © 2021 All rights reserved </p>
           <div className="flex gap-4">
             <span className="text-gray-400 text-xs">Visa</span>
             <span className="text-gray-400 text-xs">Mastercard</span>
