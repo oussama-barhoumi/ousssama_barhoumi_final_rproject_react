@@ -2,6 +2,7 @@
 import Carousel from "../../components/Carousel";
 import HeroSlideContent from "../../components/HeroSlideContent";
 import CategoryGrid from "./part/CategoryGrid";
+import FeaturedProducts from "./part/FeaturedProducts";
 
 const slides = [
   {
@@ -51,6 +52,9 @@ export default function Hero() {
           Shop by Category
         </p>
         <CategoryGrid />
+      </div>
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        <FeaturedProducts />
       </div>
     </>
   );
